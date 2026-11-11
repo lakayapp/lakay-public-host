@@ -1,0 +1,195 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1794214311293,
+      "tag": "0001_initial",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1794214311293,
+      "tag": "0002_lakay_community_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1794215046168,
+      "tag": "0003_add_supporters_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1794216422864,
+      "tag": "0004_add_story_photo",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1794219031064,
+      "tag": "0005_add_story_comments",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1794220761531,
+      "tag": "0006_add_spotlight_song",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1794220761531,
+      "tag": "0007_add_hidden_news_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1794220884991,
+      "tag": "0008_add_polls_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1794221015524,
+      "tag": "0009_add_owner_message_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1794221181931,
+      "tag": "0010_poll_options_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1794221290012,
+      "tag": "0011_owner_message_media",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1794224280683,
+      "tag": "0012_add_daily_articles_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "6",
+      "when": 1794225750314,
+      "tag": "0013_comments_events_leaderboard",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "6",
+      "when": 1794228828279,
+      "tag": "0014_spotlight_likes_comments_trivia_translations",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1794229895591,
+      "tag": "0015_articles_store_and_members",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "6",
+      "when": 1794230576850,
+      "tag": "0016_admin_access_code",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "6",
+      "when": 1794232700532,
+      "tag": "0017_add_content_likes_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "6",
+      "when": 1794233050719,
+      "tag": "0018_add_admin_recovery_hash",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "6",
+      "when": 1794233714113,
+      "tag": "0019_add_kont_riddles_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "6",
+      "when": 1794233996876,
+      "tag": "0020_add_restaurant_shoutouts_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "6",
+      "when": 1794246750331,
+      "tag": "0021_add_owner_posts_feed",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "6",
+      "when": 1794248962728,
+      "tag": "0022_feed_authors_and_lakay_news_posts",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "6",
+      "when": 1794268415465,
+      "tag": "0023_news_photos_safe_sources_only",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "6",
+      "when": 1794269536374,
+      "tag": "0024_news_translations_store",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "6",
+      "when": 1794273834703,
+      "tag": "0025_spotlight_media_and_text_translations",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "6",
+      "when": 1794273834703,
+      "tag": "0026_engagement_streak_qotd_hometown_challenges_presence_spotlight",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "6",
+      "when": 1794275210155,
+      "tag": "0027_bind_admin_code_to_owner_account_and_member_reset_codes",
+      "breakpoints": true
+    }
+  ]
+}

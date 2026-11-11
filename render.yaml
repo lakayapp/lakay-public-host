@@ -1,0 +1,28 @@
+# Render Blueprint for the Lakay public host (free tier).
+# Create the service from the dashboard (see README.md) or `render blueprint`
+# if the CLI is connected. No card is needed on the free plan.
+services:
+  - type: web
+    name: lakay
+    env: node
+    plan: free
+    buildCommand: npm ci && npm run build && cp -r ../drizzle ./drizzle 2>/dev/null || true
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TURSO_URL
+        value: https://lakay-lakay.turso.io
+      - key: TURSO_AUTH_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash
+      - key: PUBLIC_URL
+        value: https://lakay.onrender.com
+      - key: CRON_SECRET
+        generateValue: true
+      - key: BLOB_DIR
+        value: ./data/blobs

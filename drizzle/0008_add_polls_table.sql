@@ -1,0 +1,9 @@
+CREATE TABLE polls (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  question TEXT NOT NULL,
+  option_a TEXT NOT NULL,
+  option_b TEXT NOT NULL,
+  votes_a INTEGER NOT NULL DEFAULT 0,
+  votes_b INTEGER NOT NULL DEFAULT 0,
+  created_at INTEGER NOT NULL
+);
